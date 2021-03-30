@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.yQUpraDrJ03ap0JZsZj1AAHaFj&pid=Api&P=0&w=244&h=184');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #b3b3b3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: black;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#heading {
+color: white;
+font-size:25px;
+
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.light-mode {
+ background-image: url('https://jooinn.com/images/pink-background-5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  margin: 0;
+}
+
+button {
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius : 50%;
+  
+}
+
+</style>
+</head>
+<body>
+<button onclick="myFunction()">change theme</button>
+<ul>
+  <li><a  href="mywebsite.html">Home</a></li>
+  <li><a class="active" href="projects.html">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a  href="about.html">About</a></li>
+</ul>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<a target="sihp.html" href="sihp.html">
+  <img src="https://www.sih.gov.in/img/SIH_2018_logo.png" alt="Paris"  style="width: 300px";  >
+</a><br></br>
+<a target="inter.html" href="inter.html">
+  <img src="https://www.mydomaine.com/thmb/HgwEMFt4Uh33GGNsIGNFhDIzEEE=/2500x1513/filters:fill(auto,1)/DesignbyEmilyHendersonDesignandPhotobySaraLigorria-Tramp_665-a48fc6d65937472ca6984952c289e7bb.jpg" alt="Paris"  style="width: 300px";  >
+</a>
+
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+</body>
+</html>

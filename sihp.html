@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-image: url('https://tse2.mm.bing.net/th?id=OIP.yQUpraDrJ03ap0JZsZj1AAHaFj&pid=Api&P=0&w=244&h=184');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+
+  margin: 0;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 25%;
+  background-color: #b3b3b3;
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+li a {
+  display: block;
+  color: #000;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+li a.active {
+  background-color: black;
+  color: white;
+}
+
+li a:hover:not(.active) {
+  background-color: #555;
+  color: white;
+}
+#heading {
+color: white ;
+font-size:25px;
+
+}
+body {
+  padding: 25px;
+  background-color: white;
+  color: black;
+  font-size: 25px;
+}
+
+.light-mode {
+ background-image: url('https://jooinn.com/images/pink-background-5.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;  
+  background-size: cover;
+  margin: 0;
+}
+
+button {
+  background-color: black; 
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius : 50%;
+  
+}
+
+</style>
+</head>
+<body>
+<button onclick="myFunction()">change theme</button>
+<ul>
+  <li><a  href="mywebsite.html">Home</a></li>
+  <li><a class="active"href="sihp.html">Projects</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li><a  href="about.html">About</a></li>
+</ul>
+<div style="margin-left:25%;padding:1px 16px;height:1000px;">
+<h2 id ="heading" >Mobile Based Dwell Time Management System Using IoT</h2>
+<p id= "heading">A mobile application based dwell time data management system
+Automated system with alert messages for resource management 
+Monitoring effective utilization of airport touch points 
+Central data base record for each dwell time data collection
+API integration with existing Airport Software
+</p>
+<img src="https://www.sih.gov.in/img/SIH_2018_logo.png" alt="Trulli" width="500" height="333">
+<p id= "heading">to know more about it refer<p>
+<a target="https://github.com/sih2020admin/ak14_europa" href="https://github.com/sih2020admin/ak14_europa">
+<p id= "heading"> https://github.com/sih2020admin/ak14_europa<p>
+<script>
+function myFunction() {
+   var element = document.body;
+   element.classList.toggle("light-mode");
+}
+</script>
+</body>
+</html>
